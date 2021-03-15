@@ -29,6 +29,13 @@ function oddOrEven(str) {
   }
 }
 
+function changeNextThreeToValue (startingIndex, givenArr, value){
+  for (i = startingIndex; i < startingIndex+3; i++){
+      givenArr[i] = value
+    }
+}
+
+
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
