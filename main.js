@@ -12,6 +12,9 @@ function changeLast (str, str1){
   str [str.length-1] = str1
 }
 
+function changeAllValuesTo (){
+  
+}
 
 
 
