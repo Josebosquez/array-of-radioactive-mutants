@@ -12,8 +12,11 @@ function changeLast (str, str1){
   str [str.length-1] = str1
 }
 
-function changeAllValuesTo (){
-  
+function changeAllValuesTo (arr, newValue){
+  let arr1 = [];
+  for (i =0; i < arr.length;i++){
+    arr[i] = newValue
+  }
 }
 
 
