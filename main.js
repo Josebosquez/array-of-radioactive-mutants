@@ -1,7 +1,16 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function addMeToEnd (add){
+    add.push("Colin")
+}
+function addMeToStart(arr){
+  arr.unshift("Colin")
+}
 
+function changeLast (str, str1){
+  str [str.length-1] = str1
+}
 
 
 
